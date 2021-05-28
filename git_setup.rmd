@@ -1,0 +1,24 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Steps to activate and link version control:
+
+Select tools > version control
+
+Do you want to initiate version control for this project?
+yes
+
+If you haven't created a project, go ahead and do that first.
+
+You need to tell git who you are, 
+
+```{bash}
+git config --global user.email "you@example.com"
+```
+
