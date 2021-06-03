@@ -16,9 +16,18 @@ yes
 
 If you haven't created a project, go ahead and do that first.
 
-You need to tell git who you are, 
+We can now access the git functions via the tab in the right upper box. Click the tab to open the pane. Before the initial commit, you need to tell git who you are.
 
 ```{bash}
-git config --global user.email "you@example.com"
+git config --global user.email "jessm.ewald@gmail.com"
+git config --global user.name "Jess Ewald"
+git config --list
+```
+
+Now we can create our initial commit, and push it to the repo.
+In the git pane, check the box to ensure the changes in the file of interest are "staged". Staging allows us to add files prior to the committed change. It allows you to commit the changes in stages and commit as you go, rather than one large batch (unless that's what you want!)
+
+```{bash}
+git push -u origin master
 ```
 
